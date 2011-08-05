@@ -1,0 +1,15 @@
+General:
+- add a readme with dependencies
+- add a gemfile with dependencies?
+
+jPlayer:
+- handle more than one song in the playlist
+
+Backbone:
+- add it!
+- add a sample page transition that doesn't stop music playing
+- load the list of known songs via ajax & "song" model?
+
+Look & Feel:
+- why is there a big black bar around the "#jquery_jplayer_1.jp-player" element on Firefox?
+- include the album art of the playing song
