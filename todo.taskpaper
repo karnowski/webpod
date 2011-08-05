@@ -3,7 +3,7 @@ General:
 - add a gemfile with dependencies?
 
 jPlayer:
-- handle more than one song in the playlist
+- handle more than one song in the playlist @done
 
 Backbone:
 - add it!
@@ -13,3 +13,4 @@ Backbone:
 Look & Feel:
 - why is there a big black bar around the "#jquery_jplayer_1.jp-player" element on Firefox?
 - include the album art of the playing song
+- highlight the song that's playing visually
