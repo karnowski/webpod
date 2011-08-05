@@ -1,6 +1,6 @@
 General:
-- add a readme with dependencies
-- add a gemfile with dependencies?
+- add a readme with dependencies @done
+- add a gemfile with dependencies? @punt @done
 
 jPlayer:
 - handle more than one song in the playlist @done
@@ -13,4 +13,8 @@ Backbone:
 Look & Feel:
 - why is there a big black bar around the "#jquery_jplayer_1.jp-player" element on Firefox?
 - include the album art of the playing song
+	- via ajax or the "poster" value in jplayer?
 - highlight the song that's playing visually
+	- bold the text (unbolding the others)
+	- add a little "sound" icon next to it
+	- change the color?
