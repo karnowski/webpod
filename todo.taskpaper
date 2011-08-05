@@ -4,6 +4,8 @@ General:
 
 jPlayer:
 - handle more than one song in the playlist @done
+- use the playlist handler from this page: http://www.jplayer.org/latest/demo-02/
+- include the album art of the playing song via the poster feature as seen on this page: http://www.jplayer.org/latest/jPlayer-tester
 
 Backbone:
 - add it!
@@ -12,9 +14,3 @@ Backbone:
 
 Look & Feel:
 - why is there a big black bar around the "#jquery_jplayer_1.jp-player" element on Firefox?
-- include the album art of the playing song
-	- via ajax or the "poster" value in jplayer?
-- highlight the song that's playing visually
-	- bold the text (unbolding the others)
-	- add a little "sound" icon next to it
-	- change the color?
