@@ -7,7 +7,7 @@ $(document).ready(function(){
     supplied: "mp3",
 
     ready: function() {
-      $(this).jPlayer("setMedia", songToMedia(Songs[0]));
+      $(this).jPlayer("setMedia", Songs[0]);
     }
   });
   
@@ -18,7 +18,7 @@ $(document).ready(function(){
     var song = findSong(songId);
     console.log("song:", song)
 
-    $("#jquery_jplayer_1").jPlayer("setMedia", songToMedia(song));
+    $("#jquery_jplayer_1").jPlayer("setMedia", song);
     $("#jquery_jplayer_1").jPlayer("play");
   });
 
@@ -45,10 +45,6 @@ $(document).ready(function(){
     }
 
     return null;
-  }
-
-  function songToMedia(song) {
-      return { mp3: song.mp3 };
   }
 
 });
