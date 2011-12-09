@@ -1,29 +1,54 @@
 $(document).ready(function(){
-  var RICK = { mp3: "/media/rick.mp3" };
-  var BLUEGRASS = { mp3: "/media/Going Back To Mechanicsville.mp3" };
-  
+  buildSongLinks(Songs);
+
   $("#jquery_jplayer_1").jPlayer({
     preload: "auto",
     swfPath: "/swfs",
     supplied: "mp3",
 
     ready: function() {
-      $(this).jPlayer("setMedia", RICK);
+      $(this).jPlayer("setMedia", songToMedia(Songs[0]));
     }
   });
   
-  $("li#rickroll").click(function() {
-    console.log("clicked rickroll");
+  $("li.song-name").click(function() {
+    var songId = $(this).attr("id");
+    console.log("clicked song #" + songId);
     
-    $("#jquery_jplayer_1").jPlayer("setMedia", RICK);
+    var song = findSong(songId);
+    console.log("song:", song)
+
+    $("#jquery_jplayer_1").jPlayer("setMedia", songToMedia(song));
     $("#jquery_jplayer_1").jPlayer("play");
   });
 
-  $("li#bluegrass").click(function() {
-    console.log("clicked bluegrass"); 
+  //assumes the songs are sorted correctly, bleh
+  function buildSongLinks(songs) {
+    var ul = $(".jp_playlist_1 ul");
 
-    $("#jquery_jplayer_1").jPlayer("setMedia", BLUEGRASS);
-    $("#jquery_jplayer_1").jPlayer("play");
-  });
+    console.log("ul", ul);
+
+    for(var i=0; i < songs.length; i++) {
+      var song = songs[i];
+      console.log("song", song)
+      var li = $("<li id='" + song.id + "' class='song-name'>" + song.title + "</li>");
+      console.log("li", li)
+      li.appendTo(ul);
+    }
+  }
+
+  function findSong(id) {
+    for(var i=0; i < Songs.length; i++) {
+      if(Songs[i].id.toString() === id.toString()) {
+        return Songs[i];
+      }
+    }
+
+    return null;
+  }
+
+  function songToMedia(song) {
+      return { mp3: song.mp3 };
+  }
 
 });
