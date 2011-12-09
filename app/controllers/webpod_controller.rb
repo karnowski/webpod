@@ -1,0 +1,2 @@
+class WebpodController < ApplicationController
+end
