@@ -2,10 +2,6 @@
 
 A jPlayer + Backbone.js spike.
 
-# To Setup
+# MiddleMan Spike
 
-    gem install middleman --version 1.2.8
-    rake server
-
-Then surf to http://localhost:4567
-    
+Change directory to the "middleman" directory and follow the directions under the README there.
