@@ -1,0 +1,278 @@
+<mockup version="1.0" skin="sketch" measuredW="1538" measuredH="520" mockupW="1502" mockupH="510">
+  <controls>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::CallOut" x="1311" y="97" w="-1" h="-1" measuredW="37" measuredH="40" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="1338" y="97" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Note%20that%20the%20artist%2C%20album%2C%20and%20song%20titles%2C%20if%20they%20are%20very%20long%2C%20will%20actually%20crawl%20marquis-style.</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="36" y="10" w="282" h="510" measuredW="282" measuredH="510" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="24"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="27" y="133" w="225" h="225" measuredW="452" measuredH="452" zOrder="1" locked="false" isInGroup="24">
+          <controlProperties>
+            <src>./scott_pilgrim_album_art.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="__group__" x="36" y="366" w="210" h="51" measuredW="210" measuredH="51" zOrder="2" locked="false" isInGroup="24">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::MediaControls" x="50" y="0" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="0" locked="false" isInGroup="9"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HSlider" x="0" y="40" w="210" h="-1" measuredW="33" measuredH="11" zOrder="1" locked="false" isInGroup="9">
+              <controlProperties>
+                <value>77</value>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="10" controlTypeID="__group__" x="32" y="99" w="216" h="35" measuredW="216" measuredH="35" zOrder="3" locked="false" isInGroup="24">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="10">
+              <controlProperties>
+                <borderStyle>square</borderStyle>
+                <icon>NumberedListIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="10">
+              <controlProperties>
+                <borderStyle>square</borderStyle>
+                <icon>LeftArrowIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="90" y="0" w="38" h="15" measuredW="38" measuredH="15" zOrder="2" locked="false" isInGroup="10">
+              <controlProperties>
+                <size>8</size>
+                <state>disabled</state>
+                <text>Plumtree</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="45" y="20" w="-1" h="-1" measuredW="128" measuredH="15" zOrder="3" locked="false" isInGroup="10">
+              <controlProperties>
+                <size>8</size>
+                <state>disabled</state>
+                <text>Scott%20Pilgrim%20vs.%20the%20World%20%28Original</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="84" y="10" w="-1" h="-1" measuredW="49" measuredH="15" zOrder="4" locked="false" isInGroup="10">
+              <controlProperties>
+                <size>8</size>
+                <text>Scott%20Pilgrim</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="25" controlTypeID="__group__" x="404" y="10" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="true" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="25"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="27" y="133" w="225" h="225" measuredW="452" measuredH="452" zOrder="1" locked="false" isInGroup="25">
+          <controlProperties>
+            <src>./scott_pilgrim_album_art.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::MediaControls" x="86" y="366" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="2" locked="false" isInGroup="25"/>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HSlider" x="36" y="406" w="210" h="-1" measuredW="33" measuredH="11" zOrder="3" locked="false" isInGroup="25">
+          <controlProperties>
+            <value>77</value>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="224" y="103" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="25">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>NumberedListIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="32" y="103" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="25">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>LeftArrowIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="122" y="99" w="38" h="15" measuredW="38" measuredH="15" zOrder="6" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>8</size>
+            <state>disabled</state>
+            <text>Plumtree</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="77" y="119" w="-1" h="-1" measuredW="128" measuredH="15" zOrder="7" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>8</size>
+            <state>disabled</state>
+            <text>Scott%20Pilgrim%20vs.%20the%20World%20%28Original</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="116" y="109" w="-1" h="-1" measuredW="49" measuredH="15" zOrder="8" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>8</size>
+            <text>Scott%20Pilgrim</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::CallOut" x="1311" y="252" w="-1" h="-1" measuredW="39" measuredH="45" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="__group__" x="429" y="141" w="229" h="57" measuredW="229" measuredH="57" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="229" h="57" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="36">
+          <controlProperties>
+            <backgroundAlpha>0.75</backgroundAlpha>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="9" y="13" w="216" h="16" measuredW="216" measuredH="16" zOrder="1" locked="false" isInGroup="36">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::HSlider" x="25" y="3" w="162" h="-1" measuredW="33" measuredH="11" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <state>disabled</state>
+                <value>93</value>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="24" measuredH="15" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <size>8</size>
+                <text>2%3A49</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="191" y="0" w="-1" h="-1" measuredW="25" measuredH="15" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <size>8</size>
+                <text>-0%3A12</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="95" y="4" w="-1" h="-1" measuredW="37" measuredH="16" zOrder="2" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <size>9</size>
+            <text>2%20of%2022</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="9" y="29" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>ReloadIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="204" y="29" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>JumpBackIcon%7Cxsmall</icon>
+            <rotation>180</rotation>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::TextArea" x="1338" y="252" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Grr%21%20%20Why%20doesn%27t%20Balsamiq%20have%20%22repeat%22%20and%20%22shuffle%22%20media%20icons%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::iPhone" x="770" y="10" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="39" controlTypeID="__group__" x="806" y="378" w="210" h="51" measuredW="210" measuredH="51" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::MediaControls" x="50" y="0" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="0" locked="false" isInGroup="39"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HSlider" x="0" y="40" w="210" h="-1" measuredW="33" measuredH="11" zOrder="1" locked="false" isInGroup="39">
+          <controlProperties>
+            <value>77</value>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="40" controlTypeID="__group__" x="798" y="110" w="226" h="43" measuredW="226" measuredH="43" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="4" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="40">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <color>16777215</color>
+            <icon>LeftArrowIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="94" y="0" w="38" h="15" measuredW="38" measuredH="15" zOrder="2" locked="false" isInGroup="40">
+          <controlProperties>
+            <size>8</size>
+            <state>disabled</state>
+            <text>Plumtree</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="49" y="20" w="-1" h="-1" measuredW="128" measuredH="15" zOrder="3" locked="false" isInGroup="40">
+          <controlProperties>
+            <size>8</size>
+            <state>disabled</state>
+            <text>Scott%20Pilgrim%20vs.%20the%20World%20%28Original</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="88" y="10" w="-1" h="-1" measuredW="49" measuredH="15" zOrder="4" locked="false" isInGroup="40">
+          <controlProperties>
+            <color>16777215</color>
+            <size>8</size>
+            <text>Scott%20Pilgrim</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="190" y="5" w="25" h="25" measuredW="452" measuredH="452" zOrder="5" locked="false" isInGroup="40">
+          <controlProperties>
+            <src>./scott_pilgrim_album_art.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="226" h="43" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="40">
+          <controlProperties>
+            <backgroundAlpha>0.75</backgroundAlpha>
+            <color>0</color>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="47" controlTypeID="__group__" x="850" y="157" w="126" h="16" measuredW="126" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="47">
+          <controlProperties>
+            <icon>StarIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="28" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="47">
+          <controlProperties>
+            <icon>StarIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="56" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="47">
+          <controlProperties>
+            <icon>StarIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="82" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="47">
+          <controlProperties>
+            <icon>StarIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="110" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="47">
+          <controlProperties>
+            <icon>StarIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::DataGrid" x="798" y="175" w="226" h="199" measuredW="228" measuredH="397" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <hasHeader>false</hasHeader>
+        <hLines>true</hLines>
+        <selectedIndex>-1</selectedIndex>
+        <size>9</size>
+        <text>1.%2C%20%20%2C%20We%20Are%20Sex%20Bob-Omb%2C2%3A01%0A2.%2C%20%20%2C%20Scott%20Pilgrim%2C3%3A02%0A3.%2C%20%20%2C%20I%20Heard%20Ramona%20Sing%2C3%3A40%0A4.%2C%20%20%2C%20By%20Your%20Side%2C4%3A57%0A5.%2C%20%20%2C%20O%20Katrina%21%2C2%3A51%0A6.%2C%20%20%2C%20I%27m%20So%20Sad%5C%2C%20So%20Very%5C%2C%20Very%5C%2C%20Sad%2C0%3A13%0A7.%2C%20%20%2C%20We%20Hate%20You%20Please%20Die%2C0%3A59%0A8.%2C%20%20%2C%20Garbage%20Truck%2C1%3A44%0A9.%2C%20%20%2C%20Teenage%20Dream%2C5%3A46%0A10.%2C%20%20%2C%20Sleazy%20Bed%20Track%2C4%3A36%0A11.%2C%20%20%2C%20It%27s%20Getting%20Boring%20By%20the%20Sea%2C2%3A56%0A12.%2C%20%20%2C%20Black%20Sheep%2C4%3A56%0A13.%2C%20%20%2C%20Threshold%2C1%3A47</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Icon" x="824" y="213" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>472931</color>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
